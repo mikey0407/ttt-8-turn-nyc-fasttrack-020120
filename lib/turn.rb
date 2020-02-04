@@ -49,7 +49,6 @@ def turn (board)
     display_board(board)
     return true
   else
-    return false
     turn(board)
   end
  end
