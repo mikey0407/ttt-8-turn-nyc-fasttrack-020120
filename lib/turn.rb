@@ -7,8 +7,8 @@ def display_board(board)
 end
 
 def input_to_index(input)
-  input.to_i -= 1
-  index = input
+index = input.to_i
+ index -= 1
   return index
 end
 
